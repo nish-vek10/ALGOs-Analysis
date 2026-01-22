@@ -1,0 +1,7 @@
+pandas
+numpy
+python-dateutil
+matplotlib
+jupyter
+ipykernel
+openpyxl
