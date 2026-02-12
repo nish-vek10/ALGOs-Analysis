@@ -1,0 +1,26 @@
+{
+  "input_file": "C:\\Users\\anish\\PycharmProjects\\TradeAnalysis-ALGOS\\data\\raw\\ReportHistory-52652352.csv",
+  "output_file": "C:\\Users\\anish\\PycharmProjects\\TradeAnalysis-ALGOS\\data\\processed\\ReportHistory-52652352__acct-52652352__offset-2h.csv",
+  "offset_hours": -2,
+  "rows_in": 644,
+  "rows_out": 644,
+  "columns": [
+    "OpenTime",
+    "Position",
+    "Symbol",
+    "Type",
+    "Volume",
+    "OpenPrice",
+    "S / L",
+    "T / P",
+    "CloseTime",
+    "ClosePrice",
+    "Commission",
+    "Swap",
+    "Profit"
+  ],
+  "adjusted_columns": [
+    "OpenTime",
+    "CloseTime"
+  ]
+}

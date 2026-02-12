@@ -1,0 +1,50 @@
+{
+  "input": {
+    "processed_csv": "C:\\Users\\anish\\PycharmProjects\\TradeAnalysis-ALGOS\\data\\processed\\ReportHistory-52651106__acct-52651106__offset-2h.csv",
+    "open_time_col": "OpenTime",
+    "close_time_col": "CloseTime",
+    "pnl_col": "Profit",
+    "start_equity": 10000.0,
+    "time_format": "%Y.%m.%d %H:%M:%S",
+    "drop_zero_pnl_rows": false,
+    "zero_eps": 1e-09,
+    "commission_ignored": true
+  },
+  "totals": {
+    "totalTrades": 99,
+    "winners": 60,
+    "losers": 39,
+    "breakeven": 0,
+    "winRate_pct": 60.60606060606061,
+    "startEquity": 10000.0,
+    "endEquity": 11592.21,
+    "pnl_cash": 1592.21,
+    "netPct": 15.922099999999983,
+    "maxDD_pct": 12.520500000000013,
+    "grossWin": 4455.55,
+    "grossLoss": -2863.3399999999997,
+    "profitFactor": 1.5560673898314559,
+    "expectancy_per_trade": 16.082929292929293,
+    "bestTrade": 128.4,
+    "worstTrade": -113.76,
+    "avgWin": 74.25916666666667,
+    "avgLoss": -73.41897435897435,
+    "avgHoldMin": 11.86127946127946,
+    "medianHoldMin": 7.583333333333333,
+    "p95HoldMin": 36.43999999999999
+  },
+  "streaks": {
+    "max_win_streak_n": 11,
+    "max_loss_streak_n": 7,
+    "max_win_streak_cash": 920.14,
+    "max_loss_streak_cash": -607.46
+  },
+  "max_dd_window": {
+    "peak_index": 25,
+    "trough_index": 46,
+    "peak_time_open": "2026-01-09 14:50:59",
+    "trough_time_open": "2026-01-14 06:08:48"
+  },
+  "generated_at_utc": "2026-01-22T10:24:21.623466+00:00",
+  "run_dir": "C:\\Users\\anish\\PycharmProjects\\TradeAnalysis-ALGOS\\output\\runs\\20260122_102421Z__acct-52651106__ReportHistory-52651106__acct-52651106__offset-2h"
+}

@@ -1,0 +1,79 @@
+{
+  "input": {
+    "processed_csv": "C:\\Users\\anish\\PycharmProjects\\TradeAnalysis-ALGOS\\data\\processed\\ReportHistory-52652352__acct-52652352__offset-2h.csv",
+    "open_time_col": "OpenTime",
+    "close_time_col": "CloseTime",
+    "pnl_col": "Profit",
+    "start_equity": 100000.0,
+    "time_format": "%Y.%m.%d %H:%M:%S",
+    "drop_zero_pnl_rows": false,
+    "zero_eps": 1e-09,
+    "commission_ignored": true
+  },
+  "totals": {
+    "totalTrades": 644,
+    "winners": 258,
+    "losers": 386,
+    "breakeven": 0,
+    "winRate_pct": 40.06211180124223,
+    "startEquity": 100000.0,
+    "endEquity": 146394.19,
+    "pnl_cash": 46394.19,
+    "netPct": 46.39419,
+    "maxDD_pct": 13.888579999999987,
+    "grossWin": 222417.33999999997,
+    "grossLoss": -176023.15000000002,
+    "profitFactor": 1.263568684005484,
+    "expectancy_per_trade": 72.04066770186336,
+    "bestTrade": 2467.84,
+    "worstTrade": -1059.38,
+    "avgWin": 862.0827131782944,
+    "avgLoss": -456.0185233160622,
+    "avgHoldMin": 118.71301759834368,
+    "medianHoldMin": 76.57499999999999,
+    "p95HoldMin": 180.01666666666668,
+    "sharpe_ratio": 0.09915133694050253,
+    "recovery_factor": 3.340455971740815
+  },
+  "streaks": {
+    "max_win_streak_n": 10,
+    "max_loss_streak_n": 23,
+    "max_win_streak_cash": 10963.97,
+    "max_loss_streak_cash": -12936.329999999998
+  },
+  "max_dd_window": {
+    "peak_index": 32,
+    "trough_index": 60,
+    "peak_time_open": "2025-12-24 16:00:39",
+    "trough_time_open": "2025-12-29 03:00:09"
+  },
+  "generated_at_utc": "2026-02-04T16:56:06.074170+00:00",
+  "run_dir": "C:\\Users\\anish\\PycharmProjects\\TradeAnalysis-ALGOS\\output\\runs\\20260204_165606Z__acct-52652352__ReportHistory-52652352__acct-52652352__offset-2h",
+  "by_strategy": {
+    "Unknown STRAT": {
+      "totalTrades": 644,
+      "winners": 258,
+      "losers": 386,
+      "breakeven": 0,
+      "winRate_pct": 40.06211180124223,
+      "startEquity": 100000.0,
+      "endEquity": 146394.19,
+      "pnl_cash": 46394.19,
+      "netPct": 46.39419,
+      "maxDD_pct": 13.888579999999987,
+      "grossWin": 222417.33999999997,
+      "grossLoss": -176023.15000000002,
+      "profitFactor": 1.263568684005484,
+      "expectancy_per_trade": 72.04066770186336,
+      "bestTrade": 2467.84,
+      "worstTrade": -1059.38,
+      "avgWin": 862.0827131782944,
+      "avgLoss": -456.0185233160622,
+      "avgHoldMin": 118.71301759834368,
+      "medianHoldMin": 76.57499999999999,
+      "p95HoldMin": 180.01666666666668,
+      "sharpe_ratio": 0.09915133694050253,
+      "recovery_factor": 3.340455971740815
+    }
+  }
+}
